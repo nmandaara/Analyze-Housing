@@ -1,0 +1,5 @@
+import housing_data_extraction
+import standardize_files
+
+housing_data_extraction.run_extract()
+standardize_files.process_files()
