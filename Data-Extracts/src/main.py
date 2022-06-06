@@ -1,5 +1,7 @@
 import housing_data_extraction
 import standardize_files
+import states_and_regions
 
 housing_data_extraction.run_extract()
 standardize_files.process_files()
+states_and_regions.get_lookup()
